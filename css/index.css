@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 {
 .navigation-bar {
 	width: 100%;
 	background: #fff;
-	border-bottom: 1px solid black;
+	/* border-bottom: 1px solid black; */
 	position: fixed;
 	top: 0;
 	z-index: 2;
@@ -180,7 +180,7 @@ section.details {
 
 section.details div {
 	width: 440px;
-	text-align: center;
+	/* text-align: center; */
 }
 
 section.more-details div {
@@ -347,6 +347,12 @@ footer {
 #navigation {
 	overflow: hidden;
 }
+
+
+@media screen and (max-width: 800px) {
+    
+}
+
 
 /* @media screen and (max-width: 1050px) {
 	.navigation-bar nav a:first-child {
