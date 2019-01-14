@@ -426,4 +426,23 @@ footer {
         padding: 20px 0;
     }
 
+    .service-header {
+        display: none;
+    }
+
+    .services-heading-section {
+        padding-top: 250px;
+    }
+
+    .services-section .service {
+        width: 100%;
+    }
+
+    .section-facts {
+        flex-direction: column;
+    }
+
+    .section-facts div, .section-facts img {
+        width: 100%;
+    }
 }
